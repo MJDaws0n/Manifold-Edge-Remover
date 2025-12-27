@@ -2,6 +2,8 @@
 
 A cross-platform Python application that fixes non-manifold edges in STL files, making them suitable for 3D printing with Bambu Labs and other 3D printers.
 
+> **🚀 New to this? Check out the [Quick Start Guide](QUICKSTART.md) for step-by-step instructions!**
+
 ## Features
 
 - 🖥️ **Cross-platform**: Works on macOS, Windows, and Linux
@@ -193,14 +195,15 @@ If you prefer to install manually:
 
 ## License
 
-This project is open source and available for use in 3D printing workflows.
+This project is open source and available under the [MIT License](LICENSE).
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit issues or pull requests.
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Acknowledgments
 
 Built with:
 - [Trimesh](https://trimsh.org/) - Powerful mesh processing library
 - [NumPy](https://numpy.org/) - Numerical computing library
+- [SciPy](https://scipy.org/) - Scientific computing library
