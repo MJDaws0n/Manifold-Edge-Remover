@@ -147,6 +147,8 @@ The executable will be in the `dist/` folder: `dist/STL_Fixer`
   - numpy >= 1.20.0
    - scipy >= 1.8.0
    - networkx >= 2.8
+   - manifold3d >= 3.0.0
+   - scikit-image >= 0.22.0
 
 ## Manual Installation
 
@@ -194,7 +196,7 @@ If you prefer to install manually:
 ### Common Issues
 
 - **"No module named install" after running `python -m install ...`**: Use pip instead:
-   - `python -m pip install scipy networkx`
+   - `python -m pip install -r requirements.txt`
 
 - **Tkinter not found**: On Linux, you may need to install tkinter separately:
   - Ubuntu/Debian: `sudo apt-get install python3-tk`

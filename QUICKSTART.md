@@ -96,6 +96,12 @@ chmod +x *.sh
 python -m pip install scipy networkx
 ```
 
+**Slicer still reports non-manifold edges after fixing:**
+- Run setup again to ensure all dependencies are installed (the app uses extra libraries for robust watertight repair):
+```bash
+python -m pip install -r requirements.txt
+```
+
 **"Python not found" on Windows:**
 - Download Python from [python.org](https://www.python.org/downloads/)
 - During installation, check "Add Python to PATH"
