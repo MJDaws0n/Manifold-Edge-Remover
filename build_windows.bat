@@ -39,7 +39,7 @@ echo.
 
 REM Build the executable
 echo Building executable...
-pyinstaller --onefile --windowed --name STL_Fixer.exe --add-data "requirements.txt;." stl_fixer.py
+pyinstaller --onefile --windowed --name STL_Fixer.exe stl_fixer.py
 
 echo.
 echo ================================================

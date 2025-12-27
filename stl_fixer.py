@@ -58,14 +58,16 @@ class STLFixerApp:
         # Keep only non-degenerate faces
         valid_faces = mesh.nondegenerate_faces()
         if len(valid_faces) < len(mesh.faces):
+            removed_count = len(mesh.faces) - len(valid_faces)
             mesh.update_faces(valid_faces)
-            print(f"Removed {len(mesh.faces) - len(valid_faces)} degenerate faces")
+            print(f"Removed {removed_count} degenerate faces")
         
         # Remove duplicate faces - keep only unique faces
         unique_faces = mesh.unique_faces()
         if len(unique_faces) < len(mesh.faces):
+            removed_count = len(mesh.faces) - len(unique_faces)
             mesh.update_faces(unique_faces)
-            print(f"Removed {len(mesh.faces) - len(unique_faces)} duplicate faces")
+            print(f"Removed {removed_count} duplicate faces")
         
         # Remove infinite values
         mesh.remove_infinite_values()

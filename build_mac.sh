@@ -47,7 +47,6 @@ echo "Building executable..."
 pyinstaller --onefile \
             --windowed \
             --name STL_Fixer \
-            --add-data "requirements.txt:." \
             stl_fixer.py
 
 echo ""
