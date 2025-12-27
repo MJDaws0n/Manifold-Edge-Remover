@@ -1,5 +1,6 @@
 # **WARNING**
-This is made 100% using co-pilot, I purley checked over the code, there may be security vunerabilities present, or bugs. Review the code you run. I have tested and found no issues, but I'm taking no responsibility for anything that goes wrong.
+- Application may appear to hang, freeze, lag device, or do nothing, note it does take a while to perform tasks on complex models, so be patient.
+- This is made partially using AI. That means there may be issues. Run at your own risk
 
 # STL Manifold Edge Fixer
 
