@@ -1,6 +1,4 @@
-# **WARNING**
-- Application may appear to hang, freeze, lag device, or do nothing, note it does take a while to perform tasks on complex models, so be patient.
-- This is made partially using AI. That means there may be issues. Run at your own risk
+NEW VERSION. 100x faster: https://github.com/MJDaws0n/Manifold-Edge-Remover-V2
 
 # STL Manifold Edge Fixer
 
